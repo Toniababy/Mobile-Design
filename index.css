@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Asimovian&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Montserrat", sans-serif;
+}
+#pink{
+  position: absolute;
+  top: 92px;
+  left: 97px;
+}
+#purple{
+  position: absolute;
+  bottom: 90px;
+  left: 102px;
+  z-index: 1000;
+}

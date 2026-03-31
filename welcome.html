@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/6c14a872c1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="index.css">
+  <title>Design</title>
+</head>
+
+<body class=" flex justify-center min-h-screen antialiased">
+
+  <div class="w-full max-w-[390px] flex flex-col bg-[#09625B] text-white min-h-screen relative overflow-hidden">
+    
+    <div class="flex justify-between items-center w-full px-6 pt-4 text-[13px] font-medium">
+        <span>5:13</span>
+        <div class="flex items-center gap-1.5">
+            <i class="fa-solid fa-signal text-[10px]"></i>
+            <i class="fa-solid fa-wifi text-[10px]"></i>
+            <div class="flex items-center gap-0.5">
+                <span class="text-[10px] font-bold">76</span>
+                <i class="fa-solid fa-battery-three-quarters text-sm"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="px-6 mt-6">
+        <div class="relative bg-white/5 border border-white/10 rounded-[40px] py-16 flex items-center justify-center">
+            
+            <div class="relative w-48 h-48 flex items-center justify-center">
+                <img src="./Ellipse 16.png" class="absolute w-full h-full" alt="">
+                <img id="purple" src="./purple.png" class="absolute w-[100px] h-[100px]  object-contain z-10" alt="">
+                <img id="pink" src="./pink.png" class="absolute w-[100px] h-[100px] object-contain z-10" alt="">
+                
+                <div class="text-center z-20">
+                    <p class="text-3xl font-bold">#13,000</p>
+                    <p class="text-[10px] opacity-60 uppercase tracking-widest">left of #25,000</p>
+                </div>
+
+                <div class="absolute -left-12 top-0 bg-[#0d4d48]/80 backdrop-blur-md border border-white/20 p-3 rounded-2xl z-30 min-w-[120px]">
+                    <div class="flex items-center gap-2">
+                        <div class="w-2 h-2 rounded-full bg-purple-500"></div>
+                        <div class="text-left">
+                            <p class="text-[10px] opacity-70 leading-none">Kingsley paid</p>
+                            <p class="text-sm font-bold">#8,000</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="absolute -right-12 bottom-0 bg-[#0d4d48]/80 backdrop-blur-md border border-white/20 p-3 rounded-2xl z-30 min-w-[120px]">
+                    <div class="flex items-center gap-2">
+                        <div class="w-2 h-2 rounded-full bg-pink-400"></div>
+                        <div class="text-left">
+                            <p class="text-[10px] opacity-70 leading-none">Itunu paid</p>
+                            <p class="text-sm font-bold">#8,000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-12 px-8 space-y-4">
+        <h1 class="text-[22px] font-bold leading-tight">You're In!</h1>
+        <p class="text-[15px] opacity-80 leading-relaxed">
+            Welcome to Split! Effortlessly manage shared expenses with friends.
+        </p>
+    </div>
+
+    <div class="mt-auto px-6 pb-10 space-y-6 w-full">
+        
+        <div class="space-y-3">
+            <button class="w-full bg-white text-black/70 font-semibold py-4 rounded-full flex items-center justify-center gap-3">
+                Sign up with Google 
+                <i class="fa-solid fa-angle-right"></i>
+            </button>
+            
+           
+    </div>
+
+  </div>
+
+</body>
+</html>
