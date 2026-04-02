@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/6c14a872c1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&" />
+
+  <title>Design</title>
+</head>
+
+<body class="flex  justify-center bg-[#F4F4F4] min-h-screen antialiased bg-slate-100">
+    
+    <div class="w-full max-w-[390px] flex flex-col min-h-screen bg-gradient-to-b from-black via-[#FAD14A] to-black text-white relative overflow-hidden shadow-2xl p-4">
+      <div class="flex justify-between items-center mt-4 ">
+        <div class="flex items-center gap-3">
+          <img src="./avartar.jpg" alt="" class="w-10 h-10 rounded-full border-2 border-yellow-500 ">
+          <span class="font-medium text-lg">My Home</span>
+        </div>
+        <div class="flex gap-3">
+          <button class="w-10 h-10 bg-black text-white rounded-full flex items-center justify-center border">
+            <i class="fa-solid fa-plus text-sm"></i>
+          </button>
+          <button class="w-10 h-10 bg-black text-white rounded-full flex items-center justify-center border">
+           <span class="material-symbols-outlined">notifications</span>
+          </button>
+        </div>
+      </div>
+
+        <div class="bg-[#FAD14A] rounded-2xl p-4 mt-6 text-black/90 relative overflow-hidden shadow-yellow-500/20">
+          <div class="flex px-3 text-white  gap-4 bg-[#04040466]/40 rounded-[12px]">
+            <div class="p-3">
+              <span class="material-symbols-outlined text-xs">location_on</span>
+            <span class="text-sm">Dhaka, Bangladesh</span>
+            <h2 class="text-4xl font-bold mt-2 text-white">36°C</h2>
+            </div>
+            <div>
+            <img src="./cloud.png" alt="cloud" width="120">
+            </div>
+          </div>
+
+          <div class="flex gap-2 mt-6">
+            <div class="bg-white/20 backdrop-blur-sm rounded-2xl p-3 flex-1 ">
+              <p class="text-[9px] uppercase font-bold opacity-60">Time</p>
+              <p class="text-sm font-bold">2:20 AM</p>
+            </div>
+
+            <div class="bg-white/20 backdrop-blur-md rounded-2xl p-5 flex-1 ">
+              <p class="text-[9px] uppercase font-bold opacity-60">Temp</p>
+              <p class="text-sm font-bold">36°C</p>
+            </div>
+
+            <div class="bg-white/20 backdrop-blur-md rounded-2xl p-5 flex-1 ">
+              <p class="text-[9px] uppercase font-bold opacity-60">Humidity</p>
+              <p class="text-sm font-bold">2:20 AM</p>
+            </div>
+          </div>
+        </div>
+      <div class="flex items-center gap-3 mt-6 overflow-x-0">
+        <button class="p-4 bg-black rounded-full flex items-center text-white justify-center"><i class="fa-solid fa-plus text-xs"></i></button>
+        <button class="bg-[#FAD14A] text-black px-3 py-2 rounded-full font-medium text-sm whitespace-nowrap">All Devices</button>
+        <button class="bg-[#484944] px-3 py-2 rounded-full whitespace-nowrap ">Living Room</button>
+        <button class="bg-[#484944] px-3 py-2 rounded-full whitespace-nowrap ">Kitchen</button>
+      </div>
+
+      <div class="grid grid-cols-2 gap-4 px-5 mt-6 mb-32">
+        <div class="bg-[#484944] rounded-[16px] w-[160px] p-3 relative text-white h-[200px] flex flex-col justify-between">
+          <div class="flex justify-between">
+            <span class="material-symbols-outlined">bolt</span>
+            <div class="absolute top-3 right-5 w-5 h-10 bg-white rounded-full flex items-start justify-center p-1">
+              <div class="w-4 h-4 bg-[#D9D9D9] absolute bottom-1 rounded-full"></div>
+            </div>
+          </div>
+          <div>
+            <p class="font-semibold text-sm">Smart Lighting</p>
+            <p class="text-xs text-grey-300">Living Room</p>
+            <div class="flex gap-3 mt-3 text-[10px] font-bold">
+              <p class="flex items-center gap-2"><span class="material-symbols-outlined">light_mode</span> 45%</p>|
+              <p class="flex items-center gap-2"><span class="material-symbols-outlined">battery_android_6</span> 45%</p>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-[#484944] rounded-[16px] w-[160px] p-3 relative text-white h-[200px] flex flex-col justify-between">
+          <div class="flex justify-between">
+            <span class="material-symbols-outlined">speaker</span>
+            <div class="absolute top-3 right-5 w-5 h-10 bg-white rounded-full flex items-start justify-center p-1">
+              <div class="w-4 h-4 bg-[#D9D9D9] absolute bottom-1 rounded-full"></div>
+            </div>
+          </div>
+          <div>
+            <p class="font-semibold text-sm">Smart Speaker</p>
+            <p class="text-xs text-grey-300">Living Room</p>
+            <div class="flex gap-3 mt-3 text-[10px] font-bold">
+              <p class="flex items-center gap-2"><span class="material-symbols-outlined">brand_awareness</span> 100%</p>              
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-[#484944] rounded-[16px] w-[160px] p-3 relative text-white h-[200px] flex flex-col justify-between">
+          <div class="flex justify-between">
+            <span class="material-symbols-outlined">floor_lamp</span>
+            <div class="absolute top-3 right-5 w-5 h-10 bg-white rounded-full flex items-start justify-center p-1">
+              <div class="w-4 h-4 bg-[#D9D9D9] absolute bottom-1 rounded-full"></div>
+            </div>
+          </div>
+          <div>
+            <p class="font-semibold text-sm">Smart Lamp</p>
+            <p class="text-xs text-grey-300">Bedroom</p>
+            <div class="flex gap-3 mt-3 text-[10px] font-bold">
+              <p class="flex items-center gap-2"><span class="material-symbols-outlined">light_mode</span> 45%</p>|
+              <p class="flex items-center gap-2"><span class="material-symbols-outlined">battery_android_6</span> 45%</p>
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-[#484944] rounded-[16px] w-[160px] p-3 relative text-white h-[200px] flex flex-col justify-between">
+          <div class="flex justify-between">
+            <span class="material-symbols-outlined">climate_mini_split</span>
+            <div class="absolute top-3 right-5 w-5 h-10 bg-white rounded-full flex items-start justify-center p-1">
+              <div class="w-4 h-4 bg-[#D9D9D9] absolute bottom-1 rounded-full"></div>
+            </div>
+          </div>
+          <div>
+            <p class="font-semibold text-sm">Air Conditioner</p>
+            <p class="text-xs text-grey-300">Living Room</p>
+            <div class="flex gap-3 mt-3 text-[10px] font-bold">
+              <p class="flex items-center gap-2"><span class="material-symbols-outlined">thermometer</span> | 100%</p>              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fixed bottom-0 left-0 right-0 max-w-[390px] mx-auto z-50">
+        <div class="relative bg-[#484944] h-20 rounded-t-[40px] flex items-center justify-around px-4">
+          <button class="absolute -top-8 left-1/2 -translate-x-1/2 w-16 h-16 bg-[#FAD14A] rounded-full bordeer-[6px] border-black flex justify-center items-center shadow-lg">
+            <i class="fa-solid fa-plus text-xl text-black"></i>
+          </button>
+
+        
+          <button><span class="material-symbols-outlined">home</span></button>
+          <button><span class="material-symbols-outlined">dashboard</span></button>
+          <button><span class="material-symbols-outlined">timer</span></button>
+          <button><span class="material-symbols-outlined">account_circle</span></button>
+        </div>
+      </div>
+
+    </div> 
+</body>
+
+</html>
